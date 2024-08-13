@@ -2,14 +2,14 @@
   "name": "ECHIPA3",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://simonacatrini.github.io/ECHIPA3",
+  "homepage": "https://cerbugabriel.github.io/ECHIPA3",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /ECHIPA3/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonacatrini/ECHIPA3.git"
+    "url": "git+https://github.com/cerbugabriel/ECHIPA3.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
