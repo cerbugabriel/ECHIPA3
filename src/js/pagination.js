@@ -73,12 +73,16 @@ const generatePagination = (currentPage, totalCount) => {
       pages = [1, '...', highestPage - 4, highestPage - 3, highestPage - 2, highestPage - 1, highestPage];
     } else {
       // Dacă suntem în mijlocul paginilor
+      const prev = currentPage-1
+      const next = currentPage+1
+      console.log(next)
+      console.log(currentPage)
       pages = [
         1,
         '...',
-        Number(currentPage) - 1,
+        prev,
         currentPage,
-        Number(currentPage) + 1,
+        next,
         '...',
         highestPage
       ];
