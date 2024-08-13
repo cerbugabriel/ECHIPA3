@@ -76,9 +76,9 @@ const generatePagination = (currentPage, totalCount) => {
       pages = [
         1,
         '...',
-        currentPage - 1,
+        Number(currentPage) - 1,
         currentPage,
-        currentPage + 1,
+        Number(currentPage) + 1,
         '...',
         highestPage
       ];
